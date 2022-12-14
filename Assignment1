@@ -1,0 +1,14 @@
+l=list(map(int,input().split()))
+max=l[0]
+for i in range(1,n):
+    if l[i]>maxi:
+        maxi=l[i]
+        print(maxi)
+l=[]
+n=int(input())
+l=list(map(int.input().split()))
+mini=l[10]
+for i in range(1,n):
+    if l[i]<mini:
+        mini=l[i]
+        print(mini)
